@@ -11,7 +11,7 @@ namespace LessonA
      * This is the card class, I have no idea how it will end up
      * Version 0.2
      */
-    public class Card
+    public class Card: ICloneable
     {
         // Private Instance Variables
         private Face _face;
@@ -60,6 +60,11 @@ namespace LessonA
         // Private Methods
 
         // Public Methods
+
+        public object Clone()
+        {
+            return new Card(this.Face, this.Suit);
+        }
 
     }
 }
