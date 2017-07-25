@@ -17,7 +17,7 @@
   <Class Name="LessonA.DeckofCards">
     <Position X="7.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>DeckofCards.cs</FileName>
     </TypeIdentifier>
   </Class>

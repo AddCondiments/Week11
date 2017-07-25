@@ -20,6 +20,8 @@ namespace LessonA
     {
         static void Main(string[] args)
         {
+            DeckofCards deck = new DeckofCards();
+            Console.WriteLine(deck.ToString());
         }
     }
 }
