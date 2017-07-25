@@ -7,5 +7,9 @@ namespace LessonA
 {
     public enum Suit
     {
+        Clubs,
+        Diamonds,
+        Hearts,
+        Spades
     }
 }
