@@ -25,7 +25,7 @@ namespace LessonA
 
         public DeckofCards()
         {
-
+            _initialize();
         }
 
         // Private Methods
@@ -38,7 +38,7 @@ namespace LessonA
         {
             for (int suit = 0; suit < (int)Suit.Spades; suit++)
             {
-                for(int face = 1; face < (int)Face.King; face++)
+                for(int face = 1; face <= (int)Face.King; face++)
                 {
                     this.Add(new Card((Face)face, (Suit)suit));
                 }
@@ -58,7 +58,7 @@ namespace LessonA
             string outputString = "";
             foreach(Card card in this)
             {
-                outputString += "The " + card.Face + "of " + card.Suit + "\n";
+                outputString += "The " + card.Face + " of " + card.Suit + "\n";
             }
             return outputString;
         }

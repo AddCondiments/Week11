@@ -24,4 +24,6 @@ namespace LessonA
             Console.WriteLine(deck.ToString());
         }
     }
+
+    // Aron pointed out that i didn't put the _initialize() mehtod in the DeckofCards class constructor.
 }
