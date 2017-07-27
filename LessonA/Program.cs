@@ -22,6 +22,7 @@ namespace LessonA
         {
             DeckofCards deck = new DeckofCards();
             Console.WriteLine(deck.ToString());
+            Console.WriteLine();
         }
     }
 

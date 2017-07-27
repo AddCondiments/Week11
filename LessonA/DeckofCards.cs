@@ -73,6 +73,9 @@ namespace LessonA
         public override string ToString()
         {
             string outputString = "";
+            outputString += "The deck contains: /n";
+            outputString += "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-";
+
             foreach(Card card in this)
             {
                 outputString += "The " + card.Face + " of " + card.Suit + "\n";

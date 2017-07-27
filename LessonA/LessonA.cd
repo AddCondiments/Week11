@@ -23,10 +23,17 @@
     </TypeIdentifier>
   </Class>
   <Class Name="LessonA.CardList">
-    <Position X="4" Y="1.25" Width="1.5" />
+    <Position X="2.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CardList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LessonA.Hand">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hand.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Enum Name="LessonA.Suit" Collapsed="true">
