@@ -9,9 +9,9 @@ namespace LessonA
      * July 25th 2017
      * This is some kind of magic, we turnede a class into a list.
      * A class that inherits from the list collection, and creates a list of type Card.
-     * Version 0.4 - Adding public shuffle method, and clone interface.
+     * Version 0.4 - Reworked this class to inherit from CardList.
      */
-    public class DeckofCards:List<Card>
+    public class DeckofCards : CardList
     {
         // Private Instance Variables
 
@@ -37,7 +37,7 @@ namespace LessonA
 
         public DeckofCards()
         {
-            _initialize();
+            this._initialize();
         }
 
         // Private Methods
@@ -47,7 +47,7 @@ namespace LessonA
             /// Initializes other private variables.
             /// </summary>
 
-        private void _initialize()
+        protected override void _initialize()
         {
             // Initialize the random object
             this._random = new Random();
@@ -79,6 +79,8 @@ namespace LessonA
             }
             return outputString;
         }
+
+        // Shuffle Method
 
         public void shuffle()
         {

@@ -16,10 +16,17 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="LessonA.DeckofCards">
-    <Position X="7.5" Y="0.5" Width="1.5" />
+    <Position X="0.5" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAQAAAAACAAAAAEAAAAAAAAAAAABAAAAAAAAAAAAAE=</HashCode>
       <FileName>DeckofCards.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LessonA.CardList">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CardList.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Enum Name="LessonA.Suit" Collapsed="true">
